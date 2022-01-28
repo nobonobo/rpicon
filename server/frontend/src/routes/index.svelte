@@ -147,6 +147,8 @@
   function buildForWheel(pad) {
     let x = normalize(pad.axes[0], 0.157);
     padValue.L_STICK.X_VALUE = (x * 100) | 0;
+    padValue.L_STICK.Y_VALUE = 0;
+    padValue.R_STICK.X_VALUE = 0;
     padValue.R_STICK.Y_VALUE = ((pad.axes[5] - pad.axes[4]) * 50) | 0;
     padValue.Y = pad.buttons[0].pressed;
     padValue.B = pad.buttons[1].pressed;
