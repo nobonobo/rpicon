@@ -42,7 +42,7 @@ sudo systemctl start rpicon
 - connect usb or bluetooth for game controller.
 - press button for game controller.
 - choise game controller from top left select box.
-- choise profile for game controller.
+- choice profile for game controller.
 - Nintendo Switch standby for connect new controller.
 - top-right toggle switch on.
 - connect and few seconds later, you can see controller.
